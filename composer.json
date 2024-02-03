@@ -8,7 +8,7 @@
             "PST\\Debugging\\": "src/"
         },
         "files": [
-            "src/Debugging.php"
+            "src/functions.php"
         ]
     },
     "authors": [
@@ -16,7 +16,16 @@
             "name": "Jason Thompson"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../testing"
+        }
+    ],
+
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "pst/testing": "dev-main"
     }
 }

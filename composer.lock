@@ -4,15 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "edd8ce96d40c258265d595527b308bb0",
-    "packages": [],
+    "content-hash": "a975041c76dd89fc3709503c4a2f958a",
+    "packages": [
+        {
+            "name": "pst/testing",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../testing",
+                "reference": "e183ae0a4916ff3863322ebd502f16db4a5b49c1"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PST\\Testing\\": "src/"
+                },
+                "files": []
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Thompson"
+                }
+            ],
+            "description": "PST (Peyton, Stacy, Timber) Testing Module",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "pst/testing": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.4"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
