@@ -1,0 +1,22 @@
+{
+    "name": "pst/debugging",
+    "description": "PST (Peyton, Stacy, Timber) Debugging Module",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PST\\Debugging\\": "src/"
+        },
+        "files": [
+            "src/Debugging.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jason Thompson"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
